@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>塵が積もったらゴミ屋敷に決まってる</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- 左：年代ナビ（スケッチブックの背表紙イメージ） -->
+  <aside class="shelf" id="shelf">
+    <div class="shelf-header">
+      <h1 class="shelf-title">塵が積もったら<br>ゴミ屋敷に決まってる</h1>
+      <p class="shelf-sub">いつかの10分ドロとか、他</p>
+    </div>
+    <nav class="spines" id="spines">
+      <!-- JSで年ごとの背表紙を生成 -->
+    </nav>
+  </aside>
+
+  <!-- 右：メイン -->
+  <main class="main">
+    <header class="toolbar">
+      <div class="filters" id="tagFilters">
+        <button class="chip is-active" data-tag="all">すべて</button>
+        <button class="chip" data-tag="analog">アナログ</button>
+        <button class="chip" data-tag="copic">コピック</button>
+        <button class="chip" data-tag="digital">デジタル</button>
+      </div>
+      <div class="count" id="resultCount"></div>
+    </header>
+
+    <section class="grid" id="grid" aria-live="polite"></section>
+
+    <div class="sentinel" id="sentinel"></div>
+    <p class="empty" id="emptyState" hidden>この条件に一致する作品はまだありません。</p>
+  </main>
+
+</div>
+
+<!-- ライトボックス -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lb-close" id="lbClose" aria-label="閉じる">&times;</button>
+  <button class="lb-nav lb-prev" id="lbPrev" aria-label="前へ">&#8249;</button>
+  <img class="lb-img" id="lbImg" src="" alt="">
+  <button class="lb-nav lb-next" id="lbNext" aria-label="次へ">&#8250;</button>
+  <div class="lb-meta">
+    <span class="lb-date" id="lbDate"></span>
+    <span class="lb-tag" id="lbTag"></span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
