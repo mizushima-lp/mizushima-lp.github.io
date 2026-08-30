@@ -63,13 +63,28 @@ function buildYearSpines() {
   if (counts["unknown"]) years.push("unknown");
   if (counts["misc"]) years.push("misc"); // 「その他」は一番下に固定
 
-  const allBtn = makeSpineButton("all", `すべて`, allItems.length, true);
+  // デフォルトの表示年を決定(2026年があればそれを初期選択、なければ「すべて」)
+  const defaultYear = "2026";
+  if (counts[defaultYear]) {
+    currentYear = defaultYear;
+  }
+
+  const allBtn = makeSpineButton("all", `すべて`, allItems.length, currentYear === "all");
   spinesEl.appendChild(allBtn);
 
   years.forEach((key) => {
     const label = key === "unknown" ? "不明" : key === "misc" ? "その他" : key + "年";
-    spinesEl.appendChild(makeSpineButton(key, label, counts[key], false));
+    spinesEl.appendChild(makeSpineButton(key, label, counts[key], currentYear === key));
   });
+
+  // モバイル用トグルボタンの初期ラベルを反映
+  const toggleLabelEl = document.getElementById("shelfToggleLabel");
+  if (toggleLabelEl) {
+    toggleLabelEl.textContent =
+      currentYear === "all" ? "すべて" :
+      currentYear === "unknown" ? "不明" :
+      currentYear === "misc" ? "その他" : currentYear + "年";
+  }
 }
 
 function makeSpineButton(value, label, count, isActive) {
@@ -83,8 +98,25 @@ function makeSpineButton(value, label, count, isActive) {
       .querySelectorAll(".spine")
       .forEach((el) => el.classList.toggle("is-active", el.dataset.year === value));
     applyFilters();
+
+    // モバイル用トグルボタンのラベルを更新して閉じる
+    const toggleLabel = document.getElementById("shelfToggleLabel");
+    const toggleBtn = document.getElementById("shelfToggle");
+    const spinesNav = document.getElementById("spines");
+    if (toggleLabel) toggleLabel.textContent = label;
+    if (spinesNav) spinesNav.classList.remove("is-open");
+    if (toggleBtn) toggleBtn.setAttribute("aria-expanded", "false");
   });
   return btn;
+}
+
+const shelfToggleBtn = document.getElementById("shelfToggle");
+if (shelfToggleBtn) {
+  shelfToggleBtn.addEventListener("click", () => {
+    const spinesNav = document.getElementById("spines");
+    const isOpen = spinesNav.classList.toggle("is-open");
+    shelfToggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  });
 }
 
 // ===== タグフィルター =====
@@ -99,10 +131,15 @@ tagFiltersEl.addEventListener("click", (e) => {
 });
 
 // ===== フィルター適用 =====
+function isRealYear(key) {
+  return key !== "unknown" && key !== "misc";
+}
+
 function applyFilters() {
   filteredItems = allItems.filter((item) => {
     const tagOk = currentTag === "all" || item.tag === currentTag;
-    const yearOk = currentYear === "all" || getGroupKey(item) === currentYear;
+    const key = getGroupKey(item);
+    const yearOk = currentYear === "all" || key === currentYear;
     return tagOk && yearOk;
   });
 
@@ -238,8 +275,23 @@ function openLightbox(globalIndex) {
 }
 
 function closeLightbox() {
+  const item = allItems[lightboxIndex];
   lightboxEl.hidden = true;
   document.body.style.overflow = "";
+
+  // ライトボックス内で年をまたいで移動していた場合、閉じた時にグリッド側の年も合わせる
+  if (item) {
+    const key = getGroupKey(item);
+    if (isRealYear(key) && key !== currentYear) {
+      currentYear = key;
+      document
+        .querySelectorAll(".spine")
+        .forEach((el) => el.classList.toggle("is-active", el.dataset.year === key));
+      const toggleLabel = document.getElementById("shelfToggleLabel");
+      if (toggleLabel) toggleLabel.textContent = key + "年";
+      applyFilters();
+    }
+  }
 }
 
 function showLightboxItem() {
@@ -252,9 +304,31 @@ function showLightboxItem() {
   refreshLikeUI(item);
 }
 
+// ライトボックスの「次へ/前へ」専用の並び順リストを作る。
+// 実年を選んでいる時だけ、その年→過去の年…と続けて移動できるようにする
+// (グリッド自体は選んだ年だけに絞ったまま変えない)
+function getLightboxNavItems() {
+  if (currentYear === "all" || !isRealYear(currentYear)) {
+    return filteredItems;
+  }
+  const items = allItems.filter((item) => {
+    const tagOk = currentTag === "all" || item.tag === currentTag;
+    const key = getGroupKey(item);
+    return tagOk && isRealYear(key) && key <= currentYear;
+  });
+  items.sort((a, b) => {
+    const yearDiff = (b.year || "0000").localeCompare(a.year || "0000");
+    if (yearDiff !== 0) return yearDiff;
+    const rankDiff = sortRank(a) - sortRank(b);
+    if (rankDiff !== 0) return rankDiff;
+    return (b.date || "0000-00-00").localeCompare(a.date || "0000-00-00");
+  });
+  return items;
+}
+
 function stepLightbox(delta) {
-  // 現在のフィルター条件内で前後移動する
-  const visibleIndexes = filteredItems.map((it) => allItems.indexOf(it));
+  const navItems = getLightboxNavItems();
+  const visibleIndexes = navItems.map((it) => allItems.indexOf(it));
   const pos = visibleIndexes.indexOf(lightboxIndex);
   if (pos === -1) return;
   const nextPos = (pos + delta + visibleIndexes.length) % visibleIndexes.length;

@@ -160,16 +160,6 @@
     "misc": false
   },
   {
-    "id": "5f6249ef97",
-    "tag": "analog",
-    "date": "2026-06-09",
-    "year": "2026",
-    "thumb": "images/thumbs/5f6249ef97.jpg",
-    "full": "images/full/5f6249ef97.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "1d163417e0",
     "tag": "analog",
     "date": "2026-06-02",
@@ -13138,7 +13128,7 @@
     "thumb": "images/thumbs/e44ccda23c.jpg",
     "full": "images/full/e44ccda23c.jpg",
     "reviewed": false,
-    "misc": false,
+    "misc": true,
     "date_estimated": true
   },
   {
@@ -13961,7 +13951,7 @@
     "thumb": "images/thumbs/0945228a8c.jpg",
     "full": "images/full/0945228a8c.jpg",
     "reviewed": false,
-    "misc": false
+    "misc": true
   },
   {
     "id": "35107a17c9",
@@ -13971,7 +13961,7 @@
     "thumb": "images/thumbs/35107a17c9.jpg",
     "full": "images/full/35107a17c9.jpg",
     "reviewed": false,
-    "misc": false,
+    "misc": true,
     "date_estimated": true
   },
   {
@@ -13982,7 +13972,7 @@
     "thumb": "images/thumbs/5397fbffc0.jpg",
     "full": "images/full/5397fbffc0.jpg",
     "reviewed": false,
-    "misc": false,
+    "misc": true,
     "date_estimated": true
   },
   {
@@ -14004,7 +13994,7 @@
     "thumb": "images/thumbs/4eeb71f0ff.jpg",
     "full": "images/full/4eeb71f0ff.jpg",
     "reviewed": false,
-    "misc": false,
+    "misc": true,
     "date_estimated": true
   },
   {
@@ -14025,7 +14015,7 @@
     "thumb": "images/thumbs/222c16bff7.jpg",
     "full": "images/full/222c16bff7.jpg",
     "reviewed": false,
-    "misc": false
+    "misc": true
   },
   {
     "id": "4c66446ed5",
@@ -14035,7 +14025,7 @@
     "thumb": "images/thumbs/4c66446ed5.jpg",
     "full": "images/full/4c66446ed5.jpg",
     "reviewed": false,
-    "misc": false
+    "misc": true
   },
   {
     "id": "c75391ae16",
@@ -14207,17 +14197,6 @@
     "year": "2013",
     "thumb": "images/thumbs/f38344a01b.jpg",
     "full": "images/full/f38344a01b.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "d818c51e56",
-    "tag": "digital",
-    "date": "2013-02-03",
-    "year": "2013",
-    "thumb": "images/thumbs/d818c51e56.jpg",
-    "full": "images/full/d818c51e56.jpg",
     "reviewed": false,
     "misc": false,
     "date_estimated": true

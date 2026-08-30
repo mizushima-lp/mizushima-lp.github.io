@@ -17,7 +17,7 @@
   <aside class="shelf" id="shelf">
     <div class="shelf-header">
       <img class="shelf-logo" src="images/logo.png" alt="塵が積もったらゴミ屋敷に決まってる いつかの10分ドロとか、他">
-      <p class="shelf-credit">illust &amp; site by<br>ミズシマ</p>
+      <p class="shelf-credit">Illust: ミズシマ</p>
       <div class="shelf-social">
         <a href="https://x.com/mizushima_lp" target="_blank" rel="noopener" aria-label="X (Twitter)">
           <img src="https://cdn.simpleicons.org/x/96958F" width="14" height="14" alt="X">
@@ -27,6 +27,10 @@
         </a>
       </div>
     </div>
+    <button class="shelf-toggle" id="shelfToggle" aria-expanded="false" aria-controls="spines">
+      <span id="shelfToggleLabel">すべて</span>
+      <svg class="shelf-toggle-icon" viewBox="0 0 24 24" width="12" height="12"><path fill="currentColor" d="M7 10l5 5 5-5z"/></svg>
+    </button>
     <nav class="spines" id="spines">
       <!-- JSで年ごとの背表紙を生成 -->
     </nav>
