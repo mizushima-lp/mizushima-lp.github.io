@@ -26,7 +26,7 @@ const lbTag = document.getElementById("lbTag");
 fetch("gallery_data.json")
   .then((res) => res.json())
   .then((data) => {
-    allItems = data;
+    allItems = data.filter((item) => !item.hidden);
     buildYearSpines();
     applyFilters();
   })
@@ -132,7 +132,7 @@ tagFiltersEl.addEventListener("click", (e) => {
 
 // ===== フィルター適用 =====
 function isRealYear(key) {
-  return key !== "unknown" && key !== "misc";
+  return key !== "unknown" && key !== "misc" && key !== "all";
 }
 
 function applyFilters() {
@@ -282,7 +282,7 @@ function closeLightbox() {
   // ライトボックス内で年をまたいで移動していた場合、閉じた時にグリッド側の年も合わせる
   if (item) {
     const key = getGroupKey(item);
-    if (isRealYear(key) && key !== currentYear) {
+    if (isRealYear(currentYear) && isRealYear(key) && key !== currentYear) {
       currentYear = key;
       document
         .querySelectorAll(".spine")
