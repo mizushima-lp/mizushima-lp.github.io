@@ -350,3 +350,40 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "ArrowLeft") stepLightbox(-1);
   if (e.key === "ArrowRight") stepLightbox(1);
 });
+
+// ===== スマホのスワイプで画像送り =====
+let touchStartX = 0;
+let touchStartY = 0;
+
+lightboxEl.addEventListener(
+  "touchstart",
+  (e) => {
+    if (e.touches.length !== 1) return;
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+  },
+  { passive: true }
+);
+
+lightboxEl.addEventListener(
+  "touchend",
+  (e) => {
+    if (!touchStartX && !touchStartY) return;
+    const touch = e.changedTouches[0];
+    const diffX = touch.clientX - touchStartX;
+    const diffY = touch.clientY - touchStartY;
+    const SWIPE_THRESHOLD = 50; // これ以上横に動いたらスワイプとみなす
+
+    // 横方向の動きが縦方向より大きい時だけスワイプとして扱う(縦スクロールと誤認しないように)
+    if (Math.abs(diffX) > SWIPE_THRESHOLD && Math.abs(diffX) > Math.abs(diffY)) {
+      if (diffX < 0) {
+        stepLightbox(1); // 左スワイプ -> 次の画像へ
+      } else {
+        stepLightbox(-1); // 右スワイプ -> 前の画像へ
+      }
+    }
+    touchStartX = 0;
+    touchStartY = 0;
+  },
+  { passive: true }
+);
