@@ -161,6 +161,74 @@ const io = new IntersectionObserver((entries) => {
 });
 io.observe(sentinelEl);
 
+// ===== いいね機能(Google Apps Script経由) =====
+const LIKE_API_URL = "https://script.google.com/macros/s/AKfycbyz76dW1NZX_bW38_8-sbyq5x3fOKZyaQPm7lXa-hs2MbemIzc0A9sqSHFQYEEoGA/exec";
+
+function getLikedSet() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem("likedItems") || "[]"));
+  } catch {
+    return new Set();
+  }
+}
+
+function saveLikedSet(set) {
+  localStorage.setItem("likedItems", JSON.stringify([...set]));
+}
+
+async function likeRequest(id, action) {
+  const url = `${LIKE_API_URL}?id=${encodeURIComponent(id)}&action=${action}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error("like api error");
+  return res.json();
+}
+
+async function refreshLikeUI(item) {
+  const likeBtn = document.getElementById("lbLike");
+  const countEl = document.getElementById("lbLikeCount");
+  const liked = getLikedSet().has(item.id);
+  likeBtn.classList.toggle("is-liked", liked);
+  countEl.textContent = "…";
+  try {
+    const data = await likeRequest(item.id, "get");
+    console.log("[いいね] get結果:", data);
+    countEl.textContent = data.count ?? "0";
+  } catch (err) {
+    console.error("[いいね] 取得エラー:", err);
+    countEl.textContent = "-";
+  }
+}
+
+async function toggleLike(item) {
+  const likedSet = getLikedSet();
+  const alreadyLiked = likedSet.has(item.id);
+  const likeBtn = document.getElementById("lbLike");
+  const countEl = document.getElementById("lbLikeCount");
+  likeBtn.disabled = true;
+  try {
+    const data = await likeRequest(item.id, alreadyLiked ? "down" : "up");
+    console.log("[いいね] 更新結果:", data);
+    if (alreadyLiked) {
+      likedSet.delete(item.id);
+    } else {
+      likedSet.add(item.id);
+    }
+    saveLikedSet(likedSet);
+    countEl.textContent = data.count ?? "0";
+    likeBtn.classList.toggle("is-liked", !alreadyLiked);
+  } catch (err) {
+    console.error("[いいね] 更新エラー:", err);
+    alert("通信に失敗しました。時間をおいて試してください。");
+  } finally {
+    likeBtn.disabled = false;
+  }
+}
+
+document.getElementById("lbLike").addEventListener("click", () => {
+  const item = allItems[lightboxIndex];
+  if (item) toggleLike(item);
+});
+
 // ===== ライトボックス =====
 function openLightbox(globalIndex) {
   lightboxIndex = globalIndex;
@@ -181,6 +249,7 @@ function showLightboxItem() {
   lbImg.alt = item.date ? `${item.date}の作品` : "作品";
   lbDate.textContent = item.date || "日付不明";
   lbTag.textContent = item.tag === "analog" ? "アナログ" : item.tag === "copic" ? "コピック" : "デジタル";
+  refreshLikeUI(item);
 }
 
 function stepLightbox(delta) {

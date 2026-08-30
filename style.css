@@ -49,27 +49,47 @@ body {
 }
 
 .shelf-header {
-  padding: 0 22px 20px 22px;
+  padding: 0 0 20px 0;
   border-bottom: 1px solid var(--line);
   margin-bottom: 10px;
 }
 
-.shelf-title {
-  font-family: var(--font-display);
-  font-weight: 300;
-  font-size: 1.05rem;
-  line-height: 1.5;
-  letter-spacing: 0.01em;
-  margin: 0 0 8px 0;
-  color: var(--text);
+.shelf-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 0 12px 0;
 }
 
-.shelf-sub {
-  font-family: var(--font-mono);
-  font-size: 0.66rem;
-  letter-spacing: 0.03em;
+.shelf-credit {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 1.5;
   color: var(--text-muted);
-  margin: 0;
+  margin: 0 0 10px 0;
+  padding: 0 22px;
+}
+
+.shelf-social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 0 22px;
+}
+
+.shelf-social a {
+  display: inline-flex;
+  transition: opacity 0.15s ease;
+}
+
+.shelf-social img {
+  display: block;
+  opacity: 0.7;
+}
+
+.shelf-social a:hover img {
+  opacity: 1;
 }
 
 .spines {
@@ -260,6 +280,25 @@ body {
   background: var(--enji-soft);
 }
 
+.lb-like {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 10px;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  transition: all 0.15s ease;
+}
+.lb-like svg { fill: currentColor; }
+.lb-like:hover { border-color: var(--enji); color: var(--enji); }
+.lb-like.is-liked { background: var(--enji-soft); border-color: var(--enji); color: var(--enji); }
+.lb-like:disabled { opacity: 0.5; cursor: default; }
+
 .lb-close, .lb-nav {
   position: absolute;
   background: none;
@@ -294,9 +333,10 @@ body {
     border-right: none;
     border-bottom: 1px solid var(--line);
   }
-  .shelf-header { border-bottom: none; padding: 0 12px; white-space: nowrap; }
-  .shelf-title { font-size: 0.9rem; }
-  .shelf-sub { display: none; }
+  .shelf-header { border-bottom: none; padding: 10px 12px; white-space: nowrap; display: flex; align-items: center; gap: 10px; }
+  .shelf-logo { width: 120px; margin: 0; flex-shrink: 0; }
+  .shelf-credit { display: none; }
+  .shelf-social { flex-shrink: 0; padding: 0; }
   .spines { flex-direction: row; padding: 0 12px; }
   .spine { border-left: none; border-bottom: 3px solid transparent; border-radius: 6px 6px 0 0; white-space: nowrap; }
   .spine.is-active { border-left-color: transparent; border-bottom-color: var(--accent); }

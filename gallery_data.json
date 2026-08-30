@@ -4853,16 +4853,6 @@
     "misc": false
   },
   {
-    "id": "1bb877696f",
-    "tag": "digital",
-    "date": "2021-05-09",
-    "year": "2021",
-    "thumb": "images/thumbs/1bb877696f.jpg",
-    "full": "images/full/1bb877696f.jpg",
-    "reviewed": false,
-    "misc": false
-  },
-  {
     "id": "665dc4296d",
     "tag": "analog",
     "date": "2021-04-28",
@@ -5949,7 +5939,7 @@
     "year": "2020",
     "thumb": "images/thumbs/ef62e29ab4.jpg",
     "full": "images/full/ef62e29ab4.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -5959,7 +5949,7 @@
     "year": "2020",
     "thumb": "images/thumbs/a269d276c6.jpg",
     "full": "images/full/a269d276c6.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -5969,7 +5959,7 @@
     "year": "2020",
     "thumb": "images/thumbs/f7249fd9de.jpg",
     "full": "images/full/f7249fd9de.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -5979,7 +5969,7 @@
     "year": "2020",
     "thumb": "images/thumbs/a5f1cea8c5.jpg",
     "full": "images/full/a5f1cea8c5.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -5989,7 +5979,7 @@
     "year": "2020",
     "thumb": "images/thumbs/a2d4d73fa6.jpg",
     "full": "images/full/a2d4d73fa6.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -5999,7 +5989,7 @@
     "year": "2020",
     "thumb": "images/thumbs/8f2d8b1d12.jpg",
     "full": "images/full/8f2d8b1d12.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6009,7 +5999,7 @@
     "year": "2020",
     "thumb": "images/thumbs/32a1d72090.jpg",
     "full": "images/full/32a1d72090.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6019,7 +6009,7 @@
     "year": "2020",
     "thumb": "images/thumbs/dea0ea201b.jpg",
     "full": "images/full/dea0ea201b.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6029,7 +6019,7 @@
     "year": "2020",
     "thumb": "images/thumbs/86cdf5a878.jpg",
     "full": "images/full/86cdf5a878.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6039,7 +6029,7 @@
     "year": "2020",
     "thumb": "images/thumbs/c56fae5b66.jpg",
     "full": "images/full/c56fae5b66.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6059,7 +6049,7 @@
     "year": "2020",
     "thumb": "images/thumbs/9d1a4695fa.jpg",
     "full": "images/full/9d1a4695fa.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6069,7 +6059,7 @@
     "year": "2020",
     "thumb": "images/thumbs/199b6be3f7.jpg",
     "full": "images/full/199b6be3f7.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6079,7 +6069,7 @@
     "year": "2020",
     "thumb": "images/thumbs/49c8cd534d.jpg",
     "full": "images/full/49c8cd534d.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6089,7 +6079,7 @@
     "year": "2020",
     "thumb": "images/thumbs/29f83d6b79.jpg",
     "full": "images/full/29f83d6b79.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6099,7 +6089,7 @@
     "year": "2020",
     "thumb": "images/thumbs/a4b60e3a88.jpg",
     "full": "images/full/a4b60e3a88.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6109,7 +6099,7 @@
     "year": "2020",
     "thumb": "images/thumbs/1625922644.jpg",
     "full": "images/full/1625922644.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6119,7 +6109,7 @@
     "year": "2020",
     "thumb": "images/thumbs/1801321fe6.jpg",
     "full": "images/full/1801321fe6.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6129,7 +6119,7 @@
     "year": "2020",
     "thumb": "images/thumbs/48a5f03e72.jpg",
     "full": "images/full/48a5f03e72.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6139,7 +6129,7 @@
     "year": "2020",
     "thumb": "images/thumbs/0c5f2ae3fa.jpg",
     "full": "images/full/0c5f2ae3fa.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6149,7 +6139,7 @@
     "year": "2020",
     "thumb": "images/thumbs/e8b469876b.jpg",
     "full": "images/full/e8b469876b.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6159,7 +6149,7 @@
     "year": "2020",
     "thumb": "images/thumbs/12e4ffe1cf.jpg",
     "full": "images/full/12e4ffe1cf.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6169,7 +6159,7 @@
     "year": "2020",
     "thumb": "images/thumbs/7ec9f3c240.jpg",
     "full": "images/full/7ec9f3c240.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6179,7 +6169,7 @@
     "year": "2020",
     "thumb": "images/thumbs/06dae0e42b.jpg",
     "full": "images/full/06dae0e42b.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6189,7 +6179,7 @@
     "year": "2020",
     "thumb": "images/thumbs/3dc1408dad.jpg",
     "full": "images/full/3dc1408dad.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6199,7 +6189,7 @@
     "year": "2020",
     "thumb": "images/thumbs/e9ae48bc84.jpg",
     "full": "images/full/e9ae48bc84.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6209,7 +6199,7 @@
     "year": "2020",
     "thumb": "images/thumbs/91b05853c2.jpg",
     "full": "images/full/91b05853c2.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6219,7 +6209,7 @@
     "year": "2020",
     "thumb": "images/thumbs/940e4f6b9b.jpg",
     "full": "images/full/940e4f6b9b.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6229,7 +6219,7 @@
     "year": "2020",
     "thumb": "images/thumbs/a15fa68940.jpg",
     "full": "images/full/a15fa68940.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6239,7 +6229,7 @@
     "year": "2020",
     "thumb": "images/thumbs/d600407bdc.jpg",
     "full": "images/full/d600407bdc.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6249,7 +6239,7 @@
     "year": "2020",
     "thumb": "images/thumbs/b00ddb8c82.jpg",
     "full": "images/full/b00ddb8c82.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6259,7 +6249,7 @@
     "year": "2020",
     "thumb": "images/thumbs/123c89308f.jpg",
     "full": "images/full/123c89308f.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6269,7 +6259,7 @@
     "year": "2020",
     "thumb": "images/thumbs/cea6da2cb2.jpg",
     "full": "images/full/cea6da2cb2.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6279,7 +6269,7 @@
     "year": "2020",
     "thumb": "images/thumbs/f2e14039b2.jpg",
     "full": "images/full/f2e14039b2.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6289,7 +6279,7 @@
     "year": "2020",
     "thumb": "images/thumbs/8dfd9cd3cc.jpg",
     "full": "images/full/8dfd9cd3cc.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6299,7 +6289,7 @@
     "year": "2020",
     "thumb": "images/thumbs/f4db0a03a4.jpg",
     "full": "images/full/f4db0a03a4.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6309,7 +6299,7 @@
     "year": "2020",
     "thumb": "images/thumbs/d5adc04fb3.jpg",
     "full": "images/full/d5adc04fb3.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6319,7 +6309,7 @@
     "year": "2020",
     "thumb": "images/thumbs/8cff8944fd.jpg",
     "full": "images/full/8cff8944fd.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6329,7 +6319,7 @@
     "year": "2020",
     "thumb": "images/thumbs/e64dcfa823.jpg",
     "full": "images/full/e64dcfa823.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6339,7 +6329,7 @@
     "year": "2020",
     "thumb": "images/thumbs/6d4ea2525e.jpg",
     "full": "images/full/6d4ea2525e.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6349,7 +6339,7 @@
     "year": "2020",
     "thumb": "images/thumbs/431ad95fa9.jpg",
     "full": "images/full/431ad95fa9.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6359,7 +6349,7 @@
     "year": "2020",
     "thumb": "images/thumbs/db7f406a99.jpg",
     "full": "images/full/db7f406a99.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6369,7 +6359,7 @@
     "year": "2020",
     "thumb": "images/thumbs/05ed76468e.jpg",
     "full": "images/full/05ed76468e.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6389,7 +6379,7 @@
     "year": "2020",
     "thumb": "images/thumbs/2380682d7b.jpg",
     "full": "images/full/2380682d7b.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6399,7 +6389,7 @@
     "year": "2020",
     "thumb": "images/thumbs/a4e9b7dbc1.jpg",
     "full": "images/full/a4e9b7dbc1.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6409,7 +6399,7 @@
     "year": "2020",
     "thumb": "images/thumbs/2647ed2168.jpg",
     "full": "images/full/2647ed2168.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6439,7 +6429,7 @@
     "year": "2020",
     "thumb": "images/thumbs/8040ba6dd4.jpg",
     "full": "images/full/8040ba6dd4.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6459,7 +6449,7 @@
     "year": "2020",
     "thumb": "images/thumbs/66494519b5.jpg",
     "full": "images/full/66494519b5.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6469,7 +6459,7 @@
     "year": "2020",
     "thumb": "images/thumbs/be76570854.jpg",
     "full": "images/full/be76570854.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6509,7 +6499,7 @@
     "year": "2020",
     "thumb": "images/thumbs/2a2546ec34.jpg",
     "full": "images/full/2a2546ec34.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -6529,7 +6519,7 @@
     "year": "2020",
     "thumb": "images/thumbs/08f2788379.jpg",
     "full": "images/full/08f2788379.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -6545,7 +6535,7 @@
   },
   {
     "id": "1794e3300e",
-    "tag": "analog",
+    "tag": "copic",
     "date": "2019-12-29",
     "year": "2019",
     "thumb": "images/thumbs/1794e3300e.jpg",
@@ -7120,7 +7110,7 @@
     "year": "2019",
     "thumb": "images/thumbs/567a9a3952.jpg",
     "full": "images/full/567a9a3952.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7140,7 +7130,7 @@
     "year": "2019",
     "thumb": "images/thumbs/5fb6670cb8.jpg",
     "full": "images/full/5fb6670cb8.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7150,7 +7140,7 @@
     "year": "2019",
     "thumb": "images/thumbs/d14df78573.jpg",
     "full": "images/full/d14df78573.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7170,7 +7160,7 @@
     "year": "2019",
     "thumb": "images/thumbs/ab0a791f69.jpg",
     "full": "images/full/ab0a791f69.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7180,7 +7170,7 @@
     "year": "2019",
     "thumb": "images/thumbs/1a74095746.jpg",
     "full": "images/full/1a74095746.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7240,7 +7230,7 @@
     "year": "2019",
     "thumb": "images/thumbs/8b40fcb7c3.jpg",
     "full": "images/full/8b40fcb7c3.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7260,7 +7250,7 @@
     "year": "2019",
     "thumb": "images/thumbs/64ed655cce.jpg",
     "full": "images/full/64ed655cce.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7270,7 +7260,7 @@
     "year": "2019",
     "thumb": "images/thumbs/ad66720b66.jpg",
     "full": "images/full/ad66720b66.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7280,7 +7270,7 @@
     "year": "2019",
     "thumb": "images/thumbs/a72708364d.jpg",
     "full": "images/full/a72708364d.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7300,7 +7290,7 @@
     "year": "2019",
     "thumb": "images/thumbs/a23789b106.jpg",
     "full": "images/full/a23789b106.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7310,7 +7300,7 @@
     "year": "2019",
     "thumb": "images/thumbs/30a58c1edf.jpg",
     "full": "images/full/30a58c1edf.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7320,7 +7310,7 @@
     "year": "2019",
     "thumb": "images/thumbs/f1b5d316d8.jpg",
     "full": "images/full/f1b5d316d8.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7350,7 +7340,7 @@
     "year": "2019",
     "thumb": "images/thumbs/a36b46ec31.jpg",
     "full": "images/full/a36b46ec31.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7390,7 +7380,7 @@
     "year": "2019",
     "thumb": "images/thumbs/5afa4f9bdc.jpg",
     "full": "images/full/5afa4f9bdc.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7400,7 +7390,7 @@
     "year": "2019",
     "thumb": "images/thumbs/0ee2b1c251.jpg",
     "full": "images/full/0ee2b1c251.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7410,7 +7400,7 @@
     "year": "2019",
     "thumb": "images/thumbs/6e54e7d6ea.jpg",
     "full": "images/full/6e54e7d6ea.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7420,7 +7410,7 @@
     "year": "2019",
     "thumb": "images/thumbs/cf7c754ea3.jpg",
     "full": "images/full/cf7c754ea3.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7530,7 +7520,7 @@
     "year": "2019",
     "thumb": "images/thumbs/d6d0bb4c46.jpg",
     "full": "images/full/d6d0bb4c46.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7550,7 +7540,7 @@
     "year": "2019",
     "thumb": "images/thumbs/3d4e9e43e3.jpg",
     "full": "images/full/3d4e9e43e3.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7560,7 +7550,7 @@
     "year": "2019",
     "thumb": "images/thumbs/05b43bc160.jpg",
     "full": "images/full/05b43bc160.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7580,7 +7570,7 @@
     "year": "2019",
     "thumb": "images/thumbs/54e7e7183a.jpg",
     "full": "images/full/54e7e7183a.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7590,7 +7580,7 @@
     "year": "2019",
     "thumb": "images/thumbs/77552cf786.jpg",
     "full": "images/full/77552cf786.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7610,7 +7600,7 @@
     "year": "2019",
     "thumb": "images/thumbs/99153d9276.jpg",
     "full": "images/full/99153d9276.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7620,7 +7610,7 @@
     "year": "2019",
     "thumb": "images/thumbs/f95d54829b.jpg",
     "full": "images/full/f95d54829b.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7630,7 +7620,7 @@
     "year": "2019",
     "thumb": "images/thumbs/ca7e8bdef6.jpg",
     "full": "images/full/ca7e8bdef6.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7640,7 +7630,7 @@
     "year": "2019",
     "thumb": "images/thumbs/062283acb9.jpg",
     "full": "images/full/062283acb9.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7650,17 +7640,17 @@
     "year": "2019",
     "thumb": "images/thumbs/1b1680c8db.jpg",
     "full": "images/full/1b1680c8db.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
     "id": "90313b3094",
-    "tag": "analog",
+    "tag": "digital",
     "date": "2019-01-21",
     "year": "2019",
     "thumb": "images/thumbs/90313b3094.jpg",
     "full": "images/full/90313b3094.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -7680,7 +7670,7 @@
     "year": "2019",
     "thumb": "images/thumbs/09b12e6425.jpg",
     "full": "images/full/09b12e6425.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false
   },
   {
@@ -8620,16 +8610,6 @@
     "year": "2017",
     "thumb": "images/thumbs/b283fbc41c.jpg",
     "full": "images/full/b283fbc41c.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "258a9d6969",
-    "tag": "digital",
-    "date": "2017-09-25",
-    "year": "2017",
-    "thumb": "images/thumbs/258a9d6969.jpg",
-    "full": "images/full/258a9d6969.jpg",
     "reviewed": true,
     "misc": false
   },
@@ -9841,19 +9821,9 @@
     "year": "2016",
     "thumb": "images/thumbs/fbf80bfc69.jpg",
     "full": "images/full/fbf80bfc69.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
-  },
-  {
-    "id": "775742efc2",
-    "tag": "copic",
-    "date": "2016-09-14",
-    "year": "2016",
-    "thumb": "images/thumbs/775742efc2.jpg",
-    "full": "images/full/775742efc2.jpg",
-    "reviewed": false,
-    "misc": false
   },
   {
     "id": "6aeeec4202",
@@ -10026,16 +9996,6 @@
     "misc": false
   },
   {
-    "id": "f341ffc21f",
-    "tag": "analog",
-    "date": "2016-09-04",
-    "year": "2016",
-    "thumb": "images/thumbs/f341ffc21f.jpg",
-    "full": "images/full/f341ffc21f.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "c3441be6a0",
     "tag": "analog",
     "date": "2016-09-04",
@@ -10106,32 +10066,12 @@
     "misc": false
   },
   {
-    "id": "e8c606d4ba",
-    "tag": "analog",
-    "date": "2016-09-04",
-    "year": "2016",
-    "thumb": "images/thumbs/e8c606d4ba.jpg",
-    "full": "images/full/e8c606d4ba.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "f03809a264",
     "tag": "analog",
     "date": "2016-09-04",
     "year": "2016",
     "thumb": "images/thumbs/f03809a264.jpg",
     "full": "images/full/f03809a264.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "de30e8e7f7",
-    "tag": "analog",
-    "date": "2016-09-04",
-    "year": "2016",
-    "thumb": "images/thumbs/de30e8e7f7.jpg",
-    "full": "images/full/de30e8e7f7.jpg",
     "reviewed": true,
     "misc": false
   },
@@ -10216,16 +10156,6 @@
     "misc": false
   },
   {
-    "id": "224ab89b7b",
-    "tag": "analog",
-    "date": "2016-09-02",
-    "year": "2016",
-    "thumb": "images/thumbs/224ab89b7b.jpg",
-    "full": "images/full/224ab89b7b.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "b15af81501",
     "tag": "digital",
     "date": "2016-08-28",
@@ -10262,16 +10192,6 @@
     "year": "2016",
     "thumb": "images/thumbs/6e3e3e0c40.jpg",
     "full": "images/full/6e3e3e0c40.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "5c78ec1129",
-    "tag": "analog",
-    "date": "2016-08-10",
-    "year": "2016",
-    "thumb": "images/thumbs/5c78ec1129.jpg",
-    "full": "images/full/5c78ec1129.jpg",
     "reviewed": true,
     "misc": false
   },
@@ -10406,16 +10326,6 @@
     "misc": false
   },
   {
-    "id": "dfcea2f5e5",
-    "tag": "analog",
-    "date": "2016-07-22",
-    "year": "2016",
-    "thumb": "images/thumbs/dfcea2f5e5.jpg",
-    "full": "images/full/dfcea2f5e5.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "576b00f340",
     "tag": "digital",
     "date": "2016-07-21",
@@ -10526,32 +10436,12 @@
     "misc": false
   },
   {
-    "id": "9f5ae5b619",
-    "tag": "analog",
-    "date": "2016-07-11",
-    "year": "2016",
-    "thumb": "images/thumbs/9f5ae5b619.jpg",
-    "full": "images/full/9f5ae5b619.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "3a975eb35c",
     "tag": "analog",
     "date": "2016-07-11",
     "year": "2016",
     "thumb": "images/thumbs/3a975eb35c.jpg",
     "full": "images/full/3a975eb35c.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "4dd8ee46b2",
-    "tag": "analog",
-    "date": "2016-07-07",
-    "year": "2016",
-    "thumb": "images/thumbs/4dd8ee46b2.jpg",
-    "full": "images/full/4dd8ee46b2.jpg",
     "reviewed": true,
     "misc": false
   },
@@ -10623,16 +10513,6 @@
     "year": "2016",
     "thumb": "images/thumbs/d1fe4761c9.jpg",
     "full": "images/full/d1fe4761c9.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "7837e3f50f",
-    "tag": "analog",
-    "date": "2016-06-30",
-    "year": "2016",
-    "thumb": "images/thumbs/7837e3f50f.jpg",
-    "full": "images/full/7837e3f50f.jpg",
     "reviewed": true,
     "misc": false
   },
@@ -10724,16 +10604,6 @@
     "year": "2016",
     "thumb": "images/thumbs/fcc91b301d.jpg",
     "full": "images/full/fcc91b301d.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "548e8f336e",
-    "tag": "analog",
-    "date": "2016-06-16",
-    "year": "2016",
-    "thumb": "images/thumbs/548e8f336e.jpg",
-    "full": "images/full/548e8f336e.jpg",
     "reviewed": true,
     "misc": false
   },
@@ -10859,16 +10729,6 @@
     "misc": false
   },
   {
-    "id": "73171b21f9",
-    "tag": "analog",
-    "date": "2016-05-30",
-    "year": "2016",
-    "thumb": "images/thumbs/73171b21f9.jpg",
-    "full": "images/full/73171b21f9.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "cbc335e39c",
     "tag": "digital",
     "date": "2016-05-29",
@@ -10945,7 +10805,7 @@
     "year": "2016",
     "thumb": "images/thumbs/eb2288a5d8.jpg",
     "full": "images/full/eb2288a5d8.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -10991,16 +10851,6 @@
     "misc": false
   },
   {
-    "id": "c8affa9ff8",
-    "tag": "digital",
-    "date": "2016-05-16",
-    "year": "2016",
-    "thumb": "images/thumbs/c8affa9ff8.jpg",
-    "full": "images/full/c8affa9ff8.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "ac278b941c",
     "tag": "analog",
     "date": "2016-05-14",
@@ -11017,16 +10867,6 @@
     "year": "2016",
     "thumb": "images/thumbs/9b63390460.jpg",
     "full": "images/full/9b63390460.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "0f4afe4d22",
-    "tag": "analog",
-    "date": "2016-05-13",
-    "year": "2016",
-    "thumb": "images/thumbs/0f4afe4d22.jpg",
-    "full": "images/full/0f4afe4d22.jpg",
     "reviewed": true,
     "misc": false
   },
@@ -11068,16 +10908,6 @@
     "year": "2016",
     "thumb": "images/thumbs/9f461bd1b5.jpg",
     "full": "images/full/9f461bd1b5.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "c913e8d560",
-    "tag": "analog",
-    "date": "2016-05-07",
-    "year": "2016",
-    "thumb": "images/thumbs/c913e8d560.jpg",
-    "full": "images/full/c913e8d560.jpg",
     "reviewed": true,
     "misc": false
   },
@@ -11202,16 +11032,6 @@
     "misc": false
   },
   {
-    "id": "e81a9d9808",
-    "tag": "analog",
-    "date": "2016-03-24",
-    "year": "2016",
-    "thumb": "images/thumbs/e81a9d9808.jpg",
-    "full": "images/full/e81a9d9808.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "a5c07d401c",
     "tag": "analog",
     "date": "2016-03-23",
@@ -11302,16 +11122,6 @@
     "misc": false
   },
   {
-    "id": "4c4dab64ff",
-    "tag": "analog",
-    "date": "2016-02-26",
-    "year": "2016",
-    "thumb": "images/thumbs/4c4dab64ff.jpg",
-    "full": "images/full/4c4dab64ff.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "05018944a6",
     "tag": "analog",
     "date": "2016-02-26",
@@ -11372,16 +11182,6 @@
     "misc": false
   },
   {
-    "id": "5d2439f5a1",
-    "tag": "analog",
-    "date": "2016-02-02",
-    "year": "2016",
-    "thumb": "images/thumbs/5d2439f5a1.jpg",
-    "full": "images/full/5d2439f5a1.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "6f514dc130",
     "tag": "analog",
     "date": "2016-01-31",
@@ -11408,7 +11208,7 @@
     "year": "2016",
     "thumb": "images/thumbs/7d671dd08b.jpg",
     "full": "images/full/7d671dd08b.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11469,7 +11269,7 @@
     "year": "2015",
     "thumb": "images/thumbs/8a34ed5282.jpg",
     "full": "images/full/8a34ed5282.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11480,7 +11280,7 @@
     "year": "2015",
     "thumb": "images/thumbs/f1ad74eb6a.jpg",
     "full": "images/full/f1ad74eb6a.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11501,7 +11301,7 @@
     "year": "2015",
     "thumb": "images/thumbs/1a942162a9.jpg",
     "full": "images/full/1a942162a9.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11552,7 +11352,7 @@
     "year": "2015",
     "thumb": "images/thumbs/8bd2a07ed2.jpg",
     "full": "images/full/8bd2a07ed2.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11879,16 +11679,6 @@
     "misc": false
   },
   {
-    "id": "e4f9a9e341",
-    "tag": "analog",
-    "date": "2015-10-21",
-    "year": "2015",
-    "thumb": "images/thumbs/e4f9a9e341.jpg",
-    "full": "images/full/e4f9a9e341.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "a796fe689e",
     "tag": "digital",
     "date": "2015-10-20",
@@ -11925,7 +11715,7 @@
     "year": "2015",
     "thumb": "images/thumbs/fd2ba9eda1.jpg",
     "full": "images/full/fd2ba9eda1.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11936,7 +11726,7 @@
     "year": "2015",
     "thumb": "images/thumbs/412523017a.jpg",
     "full": "images/full/412523017a.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11947,18 +11737,7 @@
     "year": "2015",
     "thumb": "images/thumbs/f32baeb2ab.jpg",
     "full": "images/full/f32baeb2ab.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "44e0b1447f",
-    "tag": "digital",
-    "date": "2015-10-18",
-    "year": "2015",
-    "thumb": "images/thumbs/44e0b1447f.jpg",
-    "full": "images/full/44e0b1447f.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11969,7 +11748,7 @@
     "year": "2015",
     "thumb": "images/thumbs/70aa1dea00.jpg",
     "full": "images/full/70aa1dea00.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -11980,18 +11759,7 @@
     "year": "2015",
     "thumb": "images/thumbs/fafec51788.jpg",
     "full": "images/full/fafec51788.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "26490354a3",
-    "tag": "digital",
-    "date": "2015-10-18",
-    "year": "2015",
-    "thumb": "images/thumbs/26490354a3.jpg",
-    "full": "images/full/26490354a3.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12112,7 +11880,7 @@
     "year": "2015",
     "thumb": "images/thumbs/9639f86bce.jpg",
     "full": "images/full/9639f86bce.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12128,23 +11896,13 @@
     "date_estimated": true
   },
   {
-    "id": "4f2f7e9b82",
-    "tag": "digital",
-    "date": "2015-09-29",
-    "year": "2015",
-    "thumb": "images/thumbs/4f2f7e9b82.jpg",
-    "full": "images/full/4f2f7e9b82.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
     "id": "c113372d65",
     "tag": "digital",
     "date": "2015-09-27",
     "year": "2015",
     "thumb": "images/thumbs/c113372d65.jpg",
     "full": "images/full/c113372d65.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12155,7 +11913,7 @@
     "year": "2015",
     "thumb": "images/thumbs/d4a7d89753.jpg",
     "full": "images/full/d4a7d89753.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12261,28 +12019,6 @@
     "date_estimated": true
   },
   {
-    "id": "f608259674",
-    "tag": "digital",
-    "date": "2015-09-02",
-    "year": "2015",
-    "thumb": "images/thumbs/f608259674.jpg",
-    "full": "images/full/f608259674.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "b027a6a851",
-    "tag": "digital",
-    "date": "2015-09-02",
-    "year": "2015",
-    "thumb": "images/thumbs/b027a6a851.jpg",
-    "full": "images/full/b027a6a851.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
     "id": "6f762cddc1",
     "tag": "digital",
     "date": "2015-08-27",
@@ -12329,18 +12065,7 @@
     "year": "2015",
     "thumb": "images/thumbs/c356bedfde.jpg",
     "full": "images/full/c356bedfde.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "1a1bb3bf4c",
-    "tag": "digital",
-    "date": "2015-08-27",
-    "year": "2015",
-    "thumb": "images/thumbs/1a1bb3bf4c.jpg",
-    "full": "images/full/1a1bb3bf4c.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12386,17 +12111,6 @@
     "date_estimated": true
   },
   {
-    "id": "f3e0e53cbd",
-    "tag": "digital",
-    "date": "2015-08-21",
-    "year": "2015",
-    "thumb": "images/thumbs/f3e0e53cbd.jpg",
-    "full": "images/full/f3e0e53cbd.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
     "id": "aedf766315",
     "tag": "digital",
     "date": "2015-08-18",
@@ -12424,7 +12138,7 @@
     "year": "2015",
     "thumb": "images/thumbs/a6e587a5df.jpg",
     "full": "images/full/a6e587a5df.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12435,7 +12149,7 @@
     "year": "2015",
     "thumb": "images/thumbs/92ea8c52cc.jpg",
     "full": "images/full/92ea8c52cc.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12450,24 +12164,13 @@
     "misc": false
   },
   {
-    "id": "be6c46d790",
-    "tag": "digital",
-    "date": "2015-08-09",
-    "year": "2015",
-    "thumb": "images/thumbs/be6c46d790.jpg",
-    "full": "images/full/be6c46d790.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
     "id": "a628156982",
     "tag": "digital",
     "date": "2015-08-06",
     "year": "2015",
     "thumb": "images/thumbs/a628156982.jpg",
     "full": "images/full/a628156982.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12499,7 +12202,7 @@
     "year": "2015",
     "thumb": "images/thumbs/258172b534.jpg",
     "full": "images/full/258172b534.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12510,7 +12213,7 @@
     "year": "2015",
     "thumb": "images/thumbs/8619fb3bc1.jpg",
     "full": "images/full/8619fb3bc1.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12531,7 +12234,7 @@
     "year": "2015",
     "thumb": "images/thumbs/8f59f8a523.jpg",
     "full": "images/full/8f59f8a523.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12542,7 +12245,7 @@
     "year": "2015",
     "thumb": "images/thumbs/1a52d0fb12.jpg",
     "full": "images/full/1a52d0fb12.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12553,7 +12256,7 @@
     "year": "2015",
     "thumb": "images/thumbs/f75cef1b1d.jpg",
     "full": "images/full/f75cef1b1d.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -12650,28 +12353,6 @@
     "misc": false
   },
   {
-    "id": "366343589a",
-    "tag": "digital",
-    "date": "2015-04-18",
-    "year": "2015",
-    "thumb": "images/thumbs/366343589a.jpg",
-    "full": "images/full/366343589a.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "95b85701e9",
-    "tag": "digital",
-    "date": "2015-04-18",
-    "year": "2015",
-    "thumb": "images/thumbs/95b85701e9.jpg",
-    "full": "images/full/95b85701e9.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
     "id": "75afb95668",
     "tag": "digital",
     "date": "2015-04-16",
@@ -12688,7 +12369,7 @@
     "year": "2015",
     "thumb": "images/thumbs/9158111ccf.jpg",
     "full": "images/full/9158111ccf.jpg",
-    "reviewed": false,
+    "reviewed": true,
     "misc": false,
     "date_estimated": true
   },
@@ -13226,67 +12907,15 @@
     "date_estimated": true
   },
   {
-    "id": "1a7e638a78",
+    "id": "fe82c6543c",
     "tag": "digital",
     "date": "2014-06-01",
     "year": "2014",
-    "thumb": "images/thumbs/1a7e638a78.jpg",
-    "full": "images/full/1a7e638a78.jpg",
-    "reviewed": false,
-    "misc": false
-  },
-  {
-    "id": "5bb2411875",
-    "tag": "digital",
-    "date": "2014-06-01",
-    "year": "2014",
-    "thumb": "images/thumbs/5bb2411875.jpg",
-    "full": "images/full/5bb2411875.jpg",
+    "thumb": "images/thumbs/fe82c6543c.jpg",
+    "full": "images/full/fe82c6543c.jpg",
     "reviewed": false,
     "misc": false,
     "date_estimated": true
-  },
-  {
-    "id": "7ca44dd231",
-    "tag": "digital",
-    "date": "2014-06-01",
-    "year": "2014",
-    "thumb": "images/thumbs/7ca44dd231.jpg",
-    "full": "images/full/7ca44dd231.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "88a443a7af",
-    "tag": "digital",
-    "date": "2014-06-01",
-    "year": "2014",
-    "thumb": "images/thumbs/88a443a7af.jpg",
-    "full": "images/full/88a443a7af.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "158dcc9a49",
-    "tag": "digital",
-    "date": "2014-05-31",
-    "year": "2014",
-    "thumb": "images/thumbs/158dcc9a49.jpg",
-    "full": "images/full/158dcc9a49.jpg",
-    "reviewed": true,
-    "misc": false
-  },
-  {
-    "id": "244fb3c4a9",
-    "tag": "digital",
-    "date": "2014-05-31",
-    "year": "2014",
-    "thumb": "images/thumbs/244fb3c4a9.jpg",
-    "full": "images/full/244fb3c4a9.jpg",
-    "reviewed": false,
-    "misc": false
   },
   {
     "id": "86fc6d2af4",
@@ -13299,20 +12928,19 @@
     "misc": false
   },
   {
-    "id": "c295f783dc",
+    "id": "158dcc9a49",
     "tag": "digital",
-    "date": "2014-05-31",
+    "date": "2014-05-30",
     "year": "2014",
-    "thumb": "images/thumbs/c295f783dc.jpg",
-    "full": "images/full/c295f783dc.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
+    "thumb": "images/thumbs/158dcc9a49.jpg",
+    "full": "images/full/158dcc9a49.jpg",
+    "reviewed": true,
+    "misc": false
   },
   {
     "id": "9bd5cc3343",
     "tag": "digital",
-    "date": "2014-05-31",
+    "date": "2014-05-29",
     "year": "2014",
     "thumb": "images/thumbs/9bd5cc3343.jpg",
     "full": "images/full/9bd5cc3343.jpg",
@@ -13321,23 +12949,22 @@
     "date_estimated": true
   },
   {
-    "id": "fe82c6543c",
+    "id": "1a7e638a78",
     "tag": "digital",
-    "date": "2014-05-31",
+    "date": "2014-05-28",
     "year": "2014",
-    "thumb": "images/thumbs/fe82c6543c.jpg",
-    "full": "images/full/fe82c6543c.jpg",
+    "thumb": "images/thumbs/1a7e638a78.jpg",
+    "full": "images/full/1a7e638a78.jpg",
     "reviewed": false,
-    "misc": false,
-    "date_estimated": true
+    "misc": false
   },
   {
-    "id": "1c0b909572",
+    "id": "88a443a7af",
     "tag": "digital",
-    "date": "2014-05-31",
+    "date": "2014-05-27",
     "year": "2014",
-    "thumb": "images/thumbs/1c0b909572.jpg",
-    "full": "images/full/1c0b909572.jpg",
+    "thumb": "images/thumbs/88a443a7af.jpg",
+    "full": "images/full/88a443a7af.jpg",
     "reviewed": false,
     "misc": false,
     "date_estimated": true
@@ -13360,17 +12987,6 @@
     "year": "2014",
     "thumb": "images/thumbs/a2bf0314cd.jpg",
     "full": "images/full/a2bf0314cd.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
-    "id": "3b21fefadc",
-    "tag": "digital",
-    "date": "2014-05-25",
-    "year": "2014",
-    "thumb": "images/thumbs/3b21fefadc.jpg",
-    "full": "images/full/3b21fefadc.jpg",
     "reviewed": false,
     "misc": false,
     "date_estimated": true
@@ -13504,17 +13120,6 @@
     "date_estimated": true
   },
   {
-    "id": "99f2b012b0",
-    "tag": "digital",
-    "date": "2014-02-02",
-    "year": "2014",
-    "thumb": "images/thumbs/99f2b012b0.jpg",
-    "full": "images/full/99f2b012b0.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
-  },
-  {
     "id": "7becb126ed",
     "tag": "digital",
     "date": "2014-02-01",
@@ -13545,17 +13150,6 @@
     "full": "images/full/9ff42e7871.jpg",
     "reviewed": true,
     "misc": false
-  },
-  {
-    "id": "0652223108",
-    "tag": "digital",
-    "date": "2014-01-08",
-    "year": "2014",
-    "thumb": "images/thumbs/0652223108.jpg",
-    "full": "images/full/0652223108.jpg",
-    "reviewed": false,
-    "misc": false,
-    "date_estimated": true
   },
   {
     "id": "32d87199b8",
