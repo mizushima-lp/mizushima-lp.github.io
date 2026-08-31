@@ -267,7 +267,6 @@ async function refreshLikeUI(item) {
 
 async function toggleLike(item) {
   const likedSet = getLikedSet();
-  const alreadyLiked = likedSet.has(item.id);
   const likeBtn = document.getElementById("lbLike");
   const countEl = document.getElementById("lbLikeCount");
 
@@ -276,17 +275,15 @@ async function toggleLike(item) {
   void likeBtn.offsetWidth; // 再生し直すためのリフロー
   likeBtn.classList.add("pop");
 
+  // 取り消し(アンいいね)は行わず、押すたびに必ず+1する(連打しても数が減らないようにするため)
+  likedSet.add(item.id);
+  saveLikedSet(likedSet);
+  likeBtn.classList.add("is-liked");
+
   try {
-    const data = await likeRequest(item.id, alreadyLiked ? "down" : "up");
+    const data = await likeRequest(item.id, "up");
     console.log("[いいね] 更新結果:", data);
-    if (alreadyLiked) {
-      likedSet.delete(item.id);
-    } else {
-      likedSet.add(item.id);
-    }
-    saveLikedSet(likedSet);
     countEl.textContent = data.count ?? "0";
-    likeBtn.classList.toggle("is-liked", !alreadyLiked);
   } catch (err) {
     console.error("[いいね] 更新エラー:", err);
     // 連打を許可しているので、通信エラーのたびにアラートを出すとうるさい。ログのみに留める。
