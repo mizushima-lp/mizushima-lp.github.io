@@ -270,7 +270,12 @@ async function toggleLike(item) {
   const alreadyLiked = likedSet.has(item.id);
   const likeBtn = document.getElementById("lbLike");
   const countEl = document.getElementById("lbLikeCount");
-  likeBtn.disabled = true;
+
+  // 連打で押した感触を出すための小さなポップアニメーション
+  likeBtn.classList.remove("pop");
+  void likeBtn.offsetWidth; // 再生し直すためのリフロー
+  likeBtn.classList.add("pop");
+
   try {
     const data = await likeRequest(item.id, alreadyLiked ? "down" : "up");
     console.log("[いいね] 更新結果:", data);
@@ -284,9 +289,7 @@ async function toggleLike(item) {
     likeBtn.classList.toggle("is-liked", !alreadyLiked);
   } catch (err) {
     console.error("[いいね] 更新エラー:", err);
-    alert("通信に失敗しました。時間をおいて試してください。");
-  } finally {
-    likeBtn.disabled = false;
+    // 連打を許可しているので、通信エラーのたびにアラートを出すとうるさい。ログのみに留める。
   }
 }
 

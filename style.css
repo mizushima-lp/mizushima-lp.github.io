@@ -300,6 +300,12 @@ body {
 .lb-like:hover { border-color: var(--enji); color: var(--enji); }
 .lb-like.is-liked { background: var(--enji-soft); border-color: var(--enji); color: var(--enji); }
 .lb-like:disabled { opacity: 0.5; cursor: default; }
+.lb-like.pop { animation: lbLikePop 0.25s ease; }
+@keyframes lbLikePop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.25); }
+  100% { transform: scale(1); }
+}
 
 .lb-close, .lb-nav {
   position: absolute;
