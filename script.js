@@ -220,20 +220,35 @@ async function likeRequest(id, action) {
   return res.json();
 }
 
+let likeRefreshTimer = null;
+
 async function refreshLikeUI(item) {
   const likeBtn = document.getElementById("lbLike");
   const countEl = document.getElementById("lbLikeCount");
   const liked = getLikedSet().has(item.id);
   likeBtn.classList.toggle("is-liked", liked);
-  countEl.textContent = "…";
-  try {
-    const data = await likeRequest(item.id, "get");
-    console.log("[いいね] get結果:", data);
-    countEl.textContent = data.count ?? "0";
-  } catch (err) {
-    console.error("[いいね] 取得エラー:", err);
-    countEl.textContent = "-";
-  }
+
+  // 連続スワイプ中は毎回通信しない。同じ画像に少し留まった時だけ取得する。
+  if (likeRefreshTimer) clearTimeout(likeRefreshTimer);
+  const requestedId = item.id;
+  likeRefreshTimer = setTimeout(async () => {
+    countEl.textContent = "…";
+    try {
+      const data = await likeRequest(requestedId, "get");
+      console.log("[いいね] get結果:", data);
+      // タイマー発火までの間にさらに別の画像へ移動していたら、古い結果は反映しない
+      const currentItem = allItems[lightboxIndex];
+      if (currentItem && currentItem.id === requestedId) {
+        countEl.textContent = data.count ?? "0";
+      }
+    } catch (err) {
+      console.error("[いいね] 取得エラー:", err);
+      const currentItem = allItems[lightboxIndex];
+      if (currentItem && currentItem.id === requestedId) {
+        countEl.textContent = "-";
+      }
+    }
+  }, 300);
 }
 
 async function toggleLike(item) {
@@ -302,6 +317,26 @@ function showLightboxItem() {
   lbDate.textContent = item.date || "日付不明";
   lbTag.textContent = item.tag === "analog" ? "アナログ" : item.tag === "copic" ? "コピック" : "デジタル";
   refreshLikeUI(item);
+  preloadNeighborImages();
+}
+
+// 前後の画像をあらかじめ裏で読み込んでおき、スワイプ/次へ・前への表示を速くする
+function preloadNeighborImages() {
+  const navItems = getLightboxNavItems();
+  const visibleIndexes = navItems.map((it) => allItems.indexOf(it));
+  const pos = visibleIndexes.indexOf(lightboxIndex);
+  if (pos === -1 || visibleIndexes.length < 2) return;
+
+  const prevPos = (pos - 1 + visibleIndexes.length) % visibleIndexes.length;
+  const nextPos = (pos + 1) % visibleIndexes.length;
+
+  [prevPos, nextPos].forEach((p) => {
+    const item = allItems[visibleIndexes[p]];
+    if (item && item.full) {
+      const img = new Image();
+      img.src = item.full;
+    }
+  });
 }
 
 // ライトボックスの「次へ/前へ」専用の並び順リストを作る。
