@@ -29,11 +29,25 @@ fetch("gallery_data.json")
     allItems = data.filter((item) => !item.hidden);
     buildYearSpines();
     applyFilters();
+    openFromUrlIfPresent();
   })
   .catch((err) => {
     gridEl.innerHTML = `<p style="color:#9A9186;font-family:monospace;">gallery_data.json を読み込めませんでした。</p>`;
     console.error(err);
   });
+
+// URLに ?id=画像ID が付いている場合、その画像を自動でライトボックス表示する
+// (いいねスプレッドシートなどから直接開けるようにするためのリンク機能)
+function openFromUrlIfPresent() {
+  const params = new URLSearchParams(window.location.search);
+  const targetId = params.get("id");
+  if (!targetId) return;
+
+  const index = allItems.findIndex((item) => item.id === targetId);
+  if (index === -1) return; // 非表示中、または存在しないIDの場合は何もしない
+
+  openLightbox(index);
+}
 
 // タグの並び順(小さいほど先に表示)。misc(その他)は常に最後。
 const TAG_RANK = { analog: 0, copic: 1, digital: 2 };
