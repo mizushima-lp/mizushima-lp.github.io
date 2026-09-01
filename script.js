@@ -234,6 +234,16 @@ async function likeRequest(id, action) {
   return res.json();
 }
 
+// ===== 訪問者カウント(PV) =====
+// 画像のいいねと同じスプレッドシート・同じ仕組みを流用し、専用の固定IDで1回だけ+1する。
+// サイト上には表示せず、スプレッドシート側で確認する用途のみ。
+function pingPageView() {
+  likeRequest("site_pageview", "up").catch((err) => {
+    console.error("[PV計測] 送信エラー:", err); // 失敗しても表示には影響させない
+  });
+}
+pingPageView();
+
 let likeRefreshTimer = null;
 
 async function refreshLikeUI(item) {
@@ -242,11 +252,13 @@ async function refreshLikeUI(item) {
   const liked = getLikedSet().has(item.id);
   likeBtn.classList.toggle("is-liked", liked);
 
+  // 画像を切り替えた瞬間、前の画像の数字が一瞬残って見えるのを防ぐため、即座に表示をリセットする
+  countEl.textContent = "…";
+
   // 連続スワイプ中は毎回通信しない。同じ画像に少し留まった時だけ取得する。
   if (likeRefreshTimer) clearTimeout(likeRefreshTimer);
   const requestedId = item.id;
   likeRefreshTimer = setTimeout(async () => {
-    countEl.textContent = "…";
     try {
       const data = await likeRequest(requestedId, "get");
       console.log("[いいね] get結果:", data);
@@ -283,7 +295,11 @@ async function toggleLike(item) {
   try {
     const data = await likeRequest(item.id, "up");
     console.log("[いいね] 更新結果:", data);
-    countEl.textContent = data.count ?? "0";
+    // 連打で通信が前後すると、古い(小さい)数字が後から届いて表示が一瞬戻ることがあるため、
+    // 今表示している数字より小さい値では絶対に上書きしない
+    const newCount = Number(data.count) || 0;
+    const currentShown = Number(countEl.textContent) || 0;
+    countEl.textContent = Math.max(newCount, currentShown);
   } catch (err) {
     console.error("[いいね] 更新エラー:", err);
     // 連打を許可しているので、通信エラーのたびにアラートを出すとうるさい。ログのみに留める。
