@@ -234,6 +234,16 @@ async function likeRequest(id, action) {
   return res.json();
 }
 
+// ===== 訪問者カウント(PV) =====
+// 画像のいいねと同じスプレッドシート・同じ仕組みを流用し、専用の固定IDで1回だけ+1する。
+// サイト上には表示せず、スプレッドシート側で確認する用途のみ。
+function pingPageView() {
+  likeRequest("site_pageview", "up").catch((err) => {
+    console.error("[PV計測] 送信エラー:", err); // 失敗しても表示には影響させない
+  });
+}
+pingPageView();
+
 let likeRefreshTimer = null;
 
 async function refreshLikeUI(item) {
