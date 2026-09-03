@@ -191,7 +191,7 @@ function renderNextBatch() {
 
     const badge = document.createElement("span");
     badge.className = "tile-badge";
-    badge.textContent = item.tag === "analog" ? "A" : item.tag === "copic" ? "C" : "D";
+    badge.textContent = item.tag === "analog" ? "10" : item.tag === "copic" ? "C" : "D";
 
     tile.appendChild(img);
     tile.appendChild(badge);
@@ -345,7 +345,7 @@ function showLightboxItem() {
   lbImg.src = item.full;
   lbImg.alt = item.date ? `${item.date}の作品` : "作品";
   lbDate.textContent = item.date || "日付不明";
-  lbTag.textContent = item.tag === "analog" ? "アナログ" : item.tag === "copic" ? "コピック" : "デジタル";
+  lbTag.textContent = item.tag === "analog" ? "10分ドロ" : item.tag === "copic" ? "コピック" : "デジタル";
   refreshLikeUI(item);
   preloadNeighborImages();
 }
